@@ -1,0 +1,80 @@
+export default [
+  {
+    title: 'The Getaway',
+    artist: 'Red Hot Chili Peppers',
+    cover: 'https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg',
+    file: 'https://drive.google.com/uc?id=1OVCWAkaLyniNS7vylX4L-LgndFrc3Vfs&export=download',
+  },
+  {
+    title: 'Dark Necessities',
+    artist: 'Red Hot Chili Peppers',
+    cover: 'https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg',
+    file: 'https://drive.google.com/uc?id=154no1SX8WasP3LRUPI61gAd8p7TQFsge&export=download',
+  },
+  {
+    title: 'We Turn Red',
+    artist: 'Red Hot Chili Peppers',
+    cover: 'https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg',
+    file: 'https://drive.google.com/uc?id=1_XQiCvQ9gmgkFhtEF6jFss0zjdqRKn7I&export=download',
+  },
+  {
+    title: 'The Longest Wave',
+    artist: 'Red Hot Chili Peppers',
+    cover: 'https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg',
+    file: 'https://drive.google.com/uc?id=1lifNxrn1l5kEXUrhO9Eti9jmNZkBxyWu&export=download',
+  },
+  {
+    title: 'Goodbye Angels',
+    artist: 'Red Hot Chili Peppers',
+    cover: 'https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg',
+    file: 'https://drive.google.com/uc?id=1LayrPH00XpS8XazeI3M0lepS5YBzI8Jg&export=download',
+  },
+  {
+    title: 'Sick Love',
+    artist: 'Red Hot Chili Peppers',
+    cover: 'https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg',
+    file: 'https://drive.google.com/uc?id=107R4foDGu9IUxPmRr0dQAjVCq0yvFW2X&export=download',
+  },
+  {
+    title: 'Go Robot',
+    artist: 'Red Hot Chili Peppers',
+    cover: 'https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg',
+    file: 'https://drive.google.com/uc?id=1qaRH5Jn-AmJEBfMsbDnJFqkcg_ynFRZG&export=download',
+  },
+  {
+    title: 'Feasting On The Flowers',
+    artist: 'Red Hot Chili Peppers',
+    cover: 'https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg',
+    file: 'https://drive.google.com/uc?id=1kqoEeBZWyKXnlFeV9T4y6mFoyOppru_U&export=download',
+  },
+  {
+    title: 'Detroit',
+    artist: 'Red Hot Chili Peppers',
+    cover: 'https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg',
+    file: 'https://drive.google.com/uc?id=13rZK2coZrsRebtJVcczbsIfGGEe9wlUg&export=download',
+  },
+  {
+    title: 'This Ticonderoga',
+    artist: 'Red Hot Chili Peppers',
+    cover: 'https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg',
+    file: 'https://drive.google.com/uc?id=1-LC88eFs9LLZi2Q8rKmP40fQLRlkBQIH&export=download',
+  },
+  {
+    title: 'Encore',
+    artist: 'Red Hot Chili Peppers',
+    cover: 'https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg',
+    file: 'https://drive.google.com/uc?id=1UCdrgwO_bOROWYCdRl3vXAHkrpxNaegx&export=download',
+  },
+  {
+    title: 'The Hunter',
+    artist: 'Red Hot Chili Peppers',
+    cover: 'https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg',
+    file: 'https://drive.google.com/uc?id=1i0fL2NGIVuLbjKUXrYaaMS_Ae3yCf5ML&export=download',
+  },
+  {
+    title: 'Dreams Of A Samurai',
+    artist: 'Red Hot Chili Peppers',
+    cover: 'https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg',
+    file: 'https://drive.google.com/uc?id=1IZ_9JwYI8SqWdNYHMgNRrRuL6X-V8SdA&export=download',
+  },
+];
