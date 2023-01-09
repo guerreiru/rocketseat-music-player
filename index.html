@@ -59,12 +59,41 @@
 
       <audio id="audio-el" src=""></audio>
 
+      <div id="os-modal-alert">
+        <div class="content">
+          <h3>
+            De acordo com o <a href="https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/">
+              Webkit.org,
+            </a>
+            o Safari bloqueia a reprodução automática de elementos de mídia com som por padrão na maioria dos sites.
+            Os sites que utilizarem qualquer uso de áudio, devem exigir um clique do usuário para reproduzir.
+          </h3>
+
+          <button id="button-close">Fechar</button>
+        </div>
+      </div>
+
       <a id="created-by" href="https://www.flaticon.com/free-icons/play-button" title="play button icons">Play button
         icons created by
         Noplubery - Flaticon</a>
-      <script src="./src/js/index.js" type="module"></script>
     </div>
   </div>
+  <script src="./src/js/index.js" type="module"></script>
+  <script type="module">
+    if (window.navigator.platform === 'iPhone') {
+      const audio = document.querySelector('audio')
+      const buttonClose = document.querySelector('#button-close')
+      const modalAlert = document.querySelector('#os-modal-alert')
+      modalAlert.classList.add('active')
+
+      buttonClose.addEventListener('click', () => {
+        modalAlert.classList.remove('active')
+        audio.play()
+        audio.pause()
+      })
+    }
+
+  </script>
 </body>
 
 </html>

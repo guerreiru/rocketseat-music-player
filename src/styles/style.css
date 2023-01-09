@@ -138,6 +138,51 @@ body {
   color: var(--dark-purple);
 }
 
+#os-modal-alert {
+  display: none;
+}
+
+#os-modal-alert.active {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 16px;
+}
+
+.content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+}
+
+.content h3,
+.content a {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+#button-close {
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+  color: white;
+  font-weight: bold;
+  background-color: var(--dark-purple);
+  align-self: flex-end;
+}
+
 @media (max-width: 576px) {
   .cover-image {
     height: 191px;
