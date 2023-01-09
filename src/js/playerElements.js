@@ -15,7 +15,8 @@ export default {
   },
 
   createAudioElement(audio) {
-    this.audio = new Audio(audio);
+    this.audio = document.querySelector('#audio-el');
+    this.audio.src = audio;
   },
   actions() {
     this.nextTrack.onclick = () => this.forward();

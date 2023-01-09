@@ -142,10 +142,11 @@ body {
   .cover-image {
     height: 191px;
     width: 191px;
+    margin-bottom: 16px;
   }
 
   .details {
-    width: 191px;
+    max-width: 320px;
     margin: 0 auto;
   }
 
@@ -156,10 +157,12 @@ body {
   .controls {
     justify-content: space-between;
     gap: 12px;
+    max-width: 320px;
+    margin: 16px 0;
   }
 
   .player-time-info {
     width: 100%;
-    max-width: 191px;
+    max-width: 320px;
   }
 }
