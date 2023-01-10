@@ -42,6 +42,8 @@ body {
   line-height: 1;
   color: var(--gray-500);
   margin-bottom: 10px;
+  max-width: 191px;
+  word-wrap: break-word;
 }
 
 .band-name {

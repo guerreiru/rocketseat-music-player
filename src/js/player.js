@@ -44,7 +44,7 @@ export default {
     this.currentPlaying++;
 
     if (this.currentPlaying === this.audioData.length) {
-      restart();
+      this.restart();
     }
 
     this.update();
@@ -54,9 +54,14 @@ export default {
     this.audio.currentTime = value;
   },
   timeUpdate() {
-    this.currentDuration.innerText = secondsToMinutes(
-      this.audio.duration - this.audio.currentTime
-    );
+    const calcCurrentDuration = this.audio.duration - this.audio.currentTime;
+
+    if (isNaN(calcCurrentDuration)) {
+      this.currentDuration.innerText = '00:00';
+      return;
+    }
+    this.currentDuration.innerText = secondsToMinutes(calcCurrentDuration);
+
     this.seekBar.value = this.audio.currentTime;
 
     this.progressBar.style.width = `${progressBarWidth(
